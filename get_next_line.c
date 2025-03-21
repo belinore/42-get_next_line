@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: belinore <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: belinore <belinore@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 14:45:18 by belinore          #+#    #+#             */
-/*   Updated: 2024/12/03 14:50:52 by belinore         ###   ########.fr       */
+/*   Updated: 2025/03/21 18:19:05 by belinore         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,30 +39,3 @@ char	*get_next_line(int fd)
 	}
 	return (next_line);
 }
-
-/*int	main(void)
-{
-	int	file_des;
-	char	*next_line;
-
-	file_des = open ("test_text", O_RDONLY);
-	if (file_des < 0)
-		return (-1);
-	next_line = get_next_line(file_des);
-	printf("Line1: %s", next_line);
-	free(next_line);
-	next_line = get_next_line(file_des);
-	printf("Line2: %s", next_line);
-	free(next_line);
-	next_line = get_next_line(file_des);
-	printf("Line3: %s", next_line);
-	free(next_line);
-	next_line = get_next_line(file_des);
-	printf("Line4: %s", next_line);
-	free(next_line);
-	next_line = get_next_line(file_des);
-	printf("Line5: %s", next_line);
-	if (close (file_des) < 0)
-		return (-1);
-	return (0);
-}*/
