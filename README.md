@@ -2,6 +2,7 @@
 
 Implemented a function `get_next_line(int fd)` that reads from a file descriptor and returns one line at a time, handling partial reads, buffer overflows, and memory management manually.
 
+Function prototype:
 ```c
 char *get_next_line(int fd);
 ```
