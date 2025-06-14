@@ -1,6 +1,6 @@
 # 42-get_next_line
 
-Implemented a function `get_next_line(int fd)` that reads from a file descriptor and returns one line at a time, handling partial reads and buffer overflows. It can be compiled specifying any buffer size.
+`get_next_line(int fd)` is a function that reads from a file descriptor and returns one line at a time, handling partial reads and buffer overflows. It can be compiled specifying any buffer size.
 
 Function prototype:
 ```c
