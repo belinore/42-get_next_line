@@ -1,14 +1,12 @@
 # 42-get_next_line
 
-## 📖 Overview
 Implemented a function `get_next_line(int fd)` that reads from a file descriptor and returns one line at a time, handling partial reads, buffer overflows, and memory management manually.
 
-## 🔍 Function Prototype
 ```c
 char *get_next_line(int fd);
 ```
 
-## 🧠 Learning Outcomes
+## 🎯 Learning Outcomes
 
 - Using static variables to maintain state between function calls
 - Working with file descriptors and the read() system call
