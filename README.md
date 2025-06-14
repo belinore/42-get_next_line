@@ -16,7 +16,7 @@ char *get_next_line(int fd);
 ## 📂 Project Structure
 
 ```
-get_next_line/
+42-get_next_line/
 ├── get_next_line.c              # Core function logic
 ├── get_next_line_utils.c        # Helper functions
 ├── get_next_line.h              # Header file
