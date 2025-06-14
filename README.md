@@ -30,15 +30,15 @@ get_next_line/
 
 For the mandatory version:
 ```bash
-gcc your_file.c get_next_line.c get_next_line_utils.c -D BUFFER_SIZE=42 # Replace 42 with any buffer size
+gcc your_file.c get_next_line.c get_next_line_utils.c -D BUFFER_SIZE=42
 ```
-Add `#include "get_next_line.h"` in any file where you call get_next_line()
+> **Note**: 42 can be replaced with any buffer size
+> Add `#include "get_next_line.h"` in any file calling get_next_line()
 
 For the bonus version:
 ```bash
-gcc your_file.c get_next_line_bonus.c get_next_line_utils_bonus.c -D BUFFER_SIZE=42 # Replace 42 with any buffer size
+gcc your_file.c get_next_line_bonus.c get_next_line_utils_bonus.c -D BUFFER_SIZE=42
 ```
-Add `#include "get_next_line_bonus.h"` in any file where you call get_next_line()
 
 ## 📌 Notes
 
