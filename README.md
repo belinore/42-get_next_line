@@ -7,13 +7,13 @@ Function prototype:
 char *get_next_line(int fd);
 ```
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 - Using static variables to maintain state between function calls
 - Working with file descriptors and the read() system call
 - Memory buffering for efficient file I/O
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 42-get_next_line/
@@ -26,7 +26,7 @@ char *get_next_line(int fd);
 └── README.md
 ```
 
-## 🛠️ Compilation
+## Compilation
 
 For the mandatory version:
 ```bash
@@ -40,7 +40,7 @@ For the bonus version:
 gcc your_file.c get_next_line_bonus.c get_next_line_utils_bonus.c -D BUFFER_SIZE=42
 ```
 
-## 📌 Notes
+## Notes
 
 > ⚠️ **Norminette Compliance**  
 > This project follows the [42 Norminette](https://github.com/42School/norminette) — a strict C coding style guide. It enforces rules like max 25 lines per function, separate declarations/assignments, and consistent formatting. Code is written for readability and structure over brevity.
